@@ -1,0 +1,20 @@
+{
+  "name": "command-line",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "src/index.ts",
+  "sourcemap": "dist/index.js.map",
+  "sourceMap": "dist/index.js.map",
+  "author": "karkael <karkael@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "yarn tsc"
+  }
+}
